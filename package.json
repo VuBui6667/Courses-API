@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "blog, nodejs",
   "main": "src/index.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
-    "start": "index.js",
+    "start": "node index.js",
     "watch": "node-sass --watch src/resources/scss --output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "blog, nodejs",
   "main": "src/index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node src/index.js",
     "watch": "node-sass --watch src/resources/scss --output src/public/css",

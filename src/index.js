@@ -38,3 +38,5 @@ route(app);
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
+
+// "start": "nodemon --inspect src/index.js",

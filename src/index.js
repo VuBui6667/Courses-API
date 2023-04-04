@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 const route = require("./routes");
-const db = require("./src/config/db");
+const db = require("./config/db");
 
 // Connect to DB
 db.connect();
@@ -38,5 +38,3 @@ route(app);
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
 });
-
-// "start": "nodemon --inspect src/index.js",

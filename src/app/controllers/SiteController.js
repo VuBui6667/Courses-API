@@ -6,12 +6,13 @@ class SiteController {
   home(req, res, next) {
     // res.render("home");
 
-    Course.find({})
-      .then((courses) =>
-        // res.render("home", { courses: listMongooseToObject(courses) })
-        res.json(courses)
-      )
-      .catch(next);
+    // Course.find({})
+    //   .then((courses) =>
+    //     // res.render("home", { courses: listMongooseToObject(courses) })
+    //     res.json(courses)
+    //   )
+    //   .catch(next);
+    res.render("home");
   }
 
   // [GET] /search

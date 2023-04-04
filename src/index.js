@@ -10,6 +10,7 @@ const db = require("./config/db");
 
 // Connect to DB
 db.connect();
+//
 
 app.use(express.static(path.join(__dirname, "public")));
 

@@ -4,7 +4,7 @@
   "description": "blog, nodejs",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodemon --inspect src/index.js",
     "watch": "node-sass --watch src/resources/scss --output src/public/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +17,9 @@
     "@mui/material": "^5.11.15",
     "express": "^4.18.2",
     "express-handlebars": "^7.0.4",
+    "mongodb": "5.2",
     "mongoose": "^7.0.3",
+    "mongoose-slug-generator": "^1.0.4",
     "nodemon": "^2.0.22"
   },
   "devDependencies": {
